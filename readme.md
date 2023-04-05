@@ -3,7 +3,7 @@
 This repository contains the ensenble of weights and catalog described in the paper "Using Neural Networks to Model Main Belt Albedos as a function of Proper Orbital Elements".  It also contains an example notebook demonstrating how to unzip, load and make predictions using the weights. 
 
 
-The catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets. 
+### The catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets. These columns are documented below.
 
 number: MPC number
 
