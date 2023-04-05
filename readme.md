@@ -27,16 +27,14 @@ Diameter err: Error in AsteroidDiameter
 
 family: Integer corresponding to the asteroid family
 
-sigma_pred_vis: error due to measurment uncertainty 
-on $log_{p_V}$
+sigma_pred_vis: error due to measurment uncertainty on $log_{10}(p_V)$
 
 pred_vis: predicted visible abledo
-sigma_belt_vis: error due to belt stocastisity on 
-$log_{p_V}$
 
-sigma_pred_ir: error due to measurment uncertainty on $log_{p_IR}$
+sigma_belt_vis: error due to belt stocastisity on $log_{10}(p_V)$
+
+sigma_pred_ir: error due to measurment uncertainty on $log_{10}(p_{IR})$
 
 pred_ir: predicted infrared abledo
 
-sigma_belt_ir: error due to belt stocastisity on $log_{p_IR}$
-
+sigma_belt_ir: error due to belt stocastisity on $log_{10}(p_{IR})$
