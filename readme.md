@@ -1,10 +1,12 @@
-# Asteroid-Albedos
+# Predicting Asteroid Albedos using Neural Networks
 
-This repository contains the ensenble of weights and catalog described in the paper "Using Neural Networks to Model Main Belt Albedos as a function of Proper Orbital Elements".  It also contains an example notebook demonstrating how to unzip, load and make predictions using the weights. 
+This repository supplementary information from the paper [Using neural networks to model Main Belt Asteroid albedos as a function of their proper orbital elements](https://arxiv.org/abs/2305.16392).  It consists of two parts.  
 
+1) A catalog of over 500,000 asteroids with albedos inferred from their proper elements.  This is useful if one desires a quick lookup of a previously known asteroid.
 
-### The catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets. These columns are documented below.
+2) The weights used by the Neural Network ensemble to generate these predictions.  These are useful if one desires to make a prediction about a newly discovered body whose proper orbital elements have yet to be computed.  It also contains an example notebook demonstrating how to unzip, load, and make predictions using the weights. 
 
+## The catalog ( albedos_murray_2023.csv ) includes the following columns.  Their definitions are as follows:  
 <div align="center">
   <table>
     <tr>
@@ -81,4 +83,68 @@ This repository contains the ensenble of weights and catalog described in the pa
     </tr>
   </table>
 </div>
+
+
+### Note that, for context, the catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
