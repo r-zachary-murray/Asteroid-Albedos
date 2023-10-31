@@ -84,12 +84,10 @@ This repository supplementary information from the paper [Using neural networks 
   </table>
 </div>
 
-
-### Note that, for context, the catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets.
-
+<p align="center"><em>Note that, for context, the catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets.</em></p>
 
 
-
+## 
 
 
 
