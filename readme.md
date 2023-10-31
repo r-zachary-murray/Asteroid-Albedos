@@ -6,7 +6,7 @@ This repository supplementary information from the paper [Using neural networks 
 
 2) The weights used by the Neural Network ensemble to generate these predictions.  These are useful if one desires to make a prediction about a newly discovered body whose proper orbital elements have yet to be computed.  It also contains an example notebook demonstrating how to unzip, load, and make predictions using the weights. 
 
-## The catalog ( albedos_murray_2023.csv ) includes the following columns.  Their definitions are as follows:  
+## The catalog includes the following columns.  Their definitions are as follows:  
 <div align="center">
   <table>
     <tr>
@@ -85,7 +85,7 @@ This repository supplementary information from the paper [Using neural networks 
 </div>
 
 <p align="center"><em>Note that, for context, the catalog several columns for context that are taken from the <a href="http://asteroids.matf.bg.ac.rs/fam/">AFP</a> and   
-  <a href="https://sbn.psi.edu/pds/resource/neowisediam.html">NEOWISE</a> </em></p>
+  <a href="https://sbn.psi.edu/pds/resource/neowisediam.html">NEOWISE</a>.  This catalog, as a csv file is available in this repository as 'albedos_murray_2023.csv'. </em></p>
 
 
 ## 
