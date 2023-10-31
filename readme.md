@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7778016.svg)](https://doi.org/10.5281/zenodo.7796840)
+
+ 
+
 # Predicting Asteroid Albedos using Neural Networks
 
 This repository supplementary information from the paper [Using neural networks to model Main Belt Asteroid albedos as a function of their proper orbital elements](https://arxiv.org/abs/2305.16392).  It consists of two parts.  
@@ -88,17 +92,17 @@ This repository supplementary information from the paper [Using neural networks 
   <a href="https://sbn.psi.edu/pds/resource/neowisediam.html">NEOWISE</a>.  This catalog, as a csv file is available in this repository as 'albedos_murray_2023.csv'. </em></p>
 
 
-## 
+## The weights themselves can also be used to make predictions. 
 
+These weights are saved as HDF5 files and no special package needs to be installed to use them.  However, Tensorflow and Keras must be installed to load and interact with these files.  Both packages can be installed at once by using pip. 
 
+    pip install tensorflow
 
+Once these packages are installed, copy the appropriate weights ("vis_ensemble" for visible albedos) into your working directory along with "scaler.pkl" and the "Example.ipynb" notebook. The notebook contains helper functions and a fully worked example showing how to make a prediction.  
 
+If all else fails, feel free to raise an issue via Github or reach out to the author directly: 
 
-
-
-
-
-
+* Zachary Murray, Center for Astrophysics | Harvard & Smithsonian, <zachary.murray@cfa.harvard.edu>
 
 
 
