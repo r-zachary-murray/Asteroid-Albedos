@@ -5,36 +5,22 @@ This repository contains the ensenble of weights and catalog described in the pa
 
 ### The catalog several columns for context that are taken from the [AFP](http://asteroids.matf.bg.ac.rs/fam/) and [NEOWISE](https://sbn.psi.edu/pds/resource/neowisediam.html) datasets. These columns are documented below.
 
-number: MPC number
-
-a: proper semi major axis
-
-ecc: proper eccentricity
-
-sinI: sin of the proper inclination
-
-V albedo: visible albedo
-
-V albedo error:  error in the visible albedo
-
-IR albedo: infrared albedo
-
-IR albedo error:  error in the infrared albedo
-
-Diameter: Asteroid Diameter
-
-Diameter err: Error in AsteroidDiameter
-
-family: Integer corresponding to the asteroid family
-
-sigma_pred_vis: error due to measurment uncertainty on $log_{10}(p_V)$
-
-pred_vis: predicted visible abledo
-
-sigma_belt_vis: error due to belt stocastisity on $log_{10}(p_V)$
-
-sigma_pred_ir: error due to measurment uncertainty on $log_{10}(p_{IR})$
-
-pred_ir: predicted infrared abledo
-
-sigma_belt_ir: error due to belt stocastisity on $log_{10}(p_{IR})$
+| Row             | Definition                                  |
+|-----------------|---------------------------------------------|
+| number          | MPC number                                  |
+| a               | Proper semi-major axis                      |
+| ecc             | Proper eccentricity                         |
+| sinI            | Sin of the proper inclination               |
+| V albedo        | Visible albedo                             |
+| V albedo error  | Error in the visible albedo                |
+| IR albedo       | Infrared albedo                            |
+| IR albedo error | Error in the infrared albedo               |
+| Diameter        | Asteroid Diameter                          |
+| Diameter err    | Error in Asteroid Diameter                 |
+| family          | Integer corresponding to the asteroid family |
+| sigma_pred_vis  | Error due to measurement uncertainty on $log_{10}(p_V)$ |
+| pred_vis        | Predicted visible albedo                   |
+| sigma_belt_vis  | Error due to belt stochasticity on $log_{10}(p_V)$    |
+| sigma_pred_ir   | Error due to measurement uncertainty on $log_{10}(p_{IR})$ |
+| pred_ir         | Predicted infrared albedo                  |
+| sigma_belt_ir   | Error due to belt stochasticity on $log_{10}(p_{IR})$  |
