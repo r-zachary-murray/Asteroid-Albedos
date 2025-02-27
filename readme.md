@@ -4,7 +4,7 @@
 
 # Predicting Asteroid Albedos using Neural Networks
 
-This repository supplementary information from the paper [Using neural networks to model Main Belt Asteroid albedos as a function of their proper orbital elements](https://arxiv.org/abs/2305.16392).  It consists of two parts.  
+This repository contains supplementary information from the paper [Using neural networks to model Main Belt Asteroid albedos as a function of their proper orbital elements](https://arxiv.org/abs/2305.16392).  It consists of two parts.  
 
 1) A catalog of over 500,000 asteroids with albedos inferred from their proper elements.  This is useful if one desires a quick lookup of a previously known asteroid.
 
